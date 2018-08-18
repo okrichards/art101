@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Sarah Mathew</title>
+	  <!-- link to main stylesheet -->
+	  <link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+
+	<body>
+		<nav>
+    		  <ul>
+	            <li><a href="index.html">About</a></li>
+		    <li><a href="research.html">Research</a></li>
+		    <li><a href = "mentor.html">Mentor</a> </li>
+		    <li><a href="blog.html">Blog</a></li>
+		    <li><a href="report.html">Final Report</a></li>
+    		</ul>
+		</nav>
+
+		<button class = "accordion">Week 0, Preparation</button>
+		<div class = "panel">
+		  <p>I spoke with Zhen (supervisor, post-doc) and Tanmay (graduate student) from the ArticuLab about the Sensing Curiosity in Play and Responding project (SCIPR). Afterwards, they sent me an initial set of papers to read to prepare for my research. These spanned curiosity theory, embodied conversational agents (ECAs), and general game playing. I managed to cover most of them before my first day. I also completed my CITI certification.
+</p>
+		</div>
+
+		<button class = "accordion">Week 1, May 29th - June 2nd</button>
+		<div class = "panel">
+		  <p>I met with Zhen and Tanmay to further discuss the SCIPR project and the game reasoner, which I will be working on this summer. The reasoner will be able to understand and play a multi-party cooperative game called Outbreak. My first task is to conduct a literature review on game representations. I found papers on two different planning algorithms to determine which approach would be better for our agent, and then I compared them in the literature review. I also found papers on players that are based on these approaches. </p>
+
+
+<p>I actually got lost during my first day; my home university has just a few buildings, so this was my first time on a typical campus. The lab manager, Lauren, officially welcomed me into the lab. There will also be weekly intern meetings; I’ll be presenting a paper on racialization in world of warcraft next week with a linguistics intern, Elena.  I’ve been wanting to read this paper for some time now, and I’m excited to cover it! </p>
+
+<p>At first, I struggled to start the literature review because I didn't fully understand the game reasoner/my task. I finally got it after after reviewing my educational plan (outline) and the research papers.</p>
+		</div>
+
+		<button class = "accordion">Week 2, June 5th - June 9th</button>
+                <div class = "panel">
+		  <p>I finished reading the papers on players and included them in the literature review. To determine the feasibility of using one of the approaches, I started to convert the rules of the game to its framework. I'm finding that there are various factors to consider in game representation: beliefs, knowledge, and time. I looked into more papers on game description languages to understand how to manage these factors. I spoke to another DREU intern who’s on my project (Max) about his work. </p>
+
+<p>I also worked on my website for DREU. I actually looked at all the websites for the past three years of DREU participants to gain some inspiration. I looked into jquery, html, css and javascript tutorials to work on the site. I also presented on the world of warcraft paper at the weekly intern meeting. Outside of the lab, I went to a kickboxing class and a GRE bootcamp event.</p>
+		</div>
+
+		<button class = "accordion"> Week 3, June 10th - June 16th</button>
+                <div class = "panel">
+		  <p>I finished my website. I incorporated a board game representation for my blog to parallel the game/nature of my research project. I continued to translate the rules of the game into a game description language (GDL). </p>
+
+<p>I attended a virtual town-hall seminar for DREU along with the other DREU interns (Vivian, Linh, Max). I asked a few questions about graduate school to Dr. Amato, who led the seminar. I had lunch with Zhen and we talked about graduate school, long term goals, Japanese movies, and waking up.</p>
+
+<p>The system won’t be autonomous by the end of the summer, so we will need a Woz system to supply information. I wasn’t sure what information the system would need, so I started the GDL as if it was self-contained, which made the separation between the reasoner and Woz unclear for me.</p>
+		</div>
+
+		<button class = "accordion"> Week 4, June 17th - June 23rd</button>
+                <div class = "panel">
+		  <p>I was struggling with creating the GDL for Outbreak, so I played the game with Max and Zoey (another SCIPR intern). Zhen, Max and I discussed the needs and novelties of using GDL for an open-ended cooperative game. I realized that a GDL shouldn’t be encoding strategies (this will be delegated to the player) so I had to approach constructing it in a different (and simpler) way. </p>
+
+<p>I spoke to all the other DREU interns more in depth this week and it was pretty nice- I was feeling a little isolated until this week. I attended a personal statement workshop offered by the GoResearch! program at CMU. I attended an event covering the GRE verbal section.</p>
+
+<p>I took a GRE practice exam during the weekend and it was a nightmare. I also biked to work when it was raining and I regret it- I had to stuff my pants with paper towels to dry throughout the day.</p>
+		</div>
+
+		<button class = "accordion"> Week 5, June 24th - June 30th</button>
+                <div class = "panel">
+		  <p>Zhen sent me a paper about Maes’s planning approach that is robust and quick (although not optimal); I found it interesting because it could allow the SCIPR agent to choose game play behaviors/moves while considering real-time human player behavior. I continued to work on the GDL, and I realized that I can describe anything about the state- it’s not limited to the core functions of GDL (which are init, role, legal, next, does, terminal, and goal.) I thought about how I should represent the board game tiles, and the gear cards in the GDL. I also realized that since a GDL is logic based, I must explicitly encode relationships like “greater than” (for example, I would have succ(1,2) to represent that 2 comes directly after 1). I created a general less-than function, fleshed out what states ended the game, and persisted some state facts.</p>
+
+<p>The lab went out to Schenley Park to watch a movie- the original one was a historical fiction, but it was unavailable and we ended up viewing the The Jungle Book (2016). I also saw Wonder Woman in theaters with Linh and Vivian.</p>
+
+<p>I found a lot of holes in the GDL so far and I’ve been working on solutions to fix/manage them.</p>
+		</div>
+
+		<button class = "accordion"> Week 6, July 1st - July 7th</button>
+                <div class = "panel">
+		  <p>Since I am comfortable with GDL now, I have been re-writing some of the functions and states I wrote into an abstract way (read: better). Zhen and I talked to the other post-docs in the lab about knowledge representation and how an agent could understand what other players say. We decided to keep a history of utterances so the agent can justify an action; we also discussed other strategies the agent could take.</p>
+
+<p>Linh made carrot cake, I ate half of it, and I regret nothing. I also made veggie burgers for the first time (since independence day was this week). I attended seminars on applying to graduate school and the NSF graduate research fellowship. I went out to the center of Pittsburgh with Linh and Vivian and visited Point State Park.</p>
+
+<p>I’m unclear on the syntax of GDL and what exactly is allowed (like nested ORs). I looked into other GDL examples and I haven’t seen this happen, but I’m not sure if it’s because this isn’t allowed or if the other games are just simpler.</p>
+		</div>
+
+		<button class = "accordion"> Week 7, July 8th - July 14th</button>
+                <div class = "panel">
+		  <p>Part of GDL syntax is that we can update the state when a player takes a particular action. “Legal” defines if the player can take that action, and “next” defines what will be true in the next state. This week I abstracted the conditions in legal so I can use them in the “next” functions. I also realized that there are special cases during gameplay that needed to be represented in GDL. I worked with Zhen to understand how the virtual player will discuss their knowledge during gameplay. I also changed some of the game state representation. We had a SCIPR group meeting to discuss our individual research and how it relates to each other and the overall project. We are labeling player utterances so the agent can make a choice between different game behaviors. I played with Victor, the trash-talking scrabble player with Max and Zimo (new SCIPR intern); we wanted to understand what it would be like playing with an agent and what difficulties there are.</p>
+
+<p>All the interns had lunch with Justine this week, and it was super fun. I found out she grew up in NYC (like me) and I’m pretty sure I shrieked. I attended seminars on research file formats, writing a personal statement, and how to write concisely. I learned that it’s important to keep data and text in various formats. The lab also went out to a ballgame, which was my first time. It was more entertaining that I thought it would be.</p>
+		</div>
+
+		<button class = "accordion"> Week 8, July 15th - July 21st</button>
+                <div class = "panel">
+		  <p>I looked into a GDL validator and compiled various sources. I organized and transferred all of my research papers onto Mendeley. I consolidated my research notes to have a better overview of the project, central questions, and the evolution of my work/ideas. I read some papers on curiosity, testing curiosity in group learning, and the Outbreak game. I looked into the general game playing system to understand what information my component will need and then subsequently produce. I met with the SCIPR group to discuss player behavior and our respective projects.</p>
+
+<p>This week’s intern meeting covered the difference between a hypothesis and prediction, the research process in terms of reading literature, and how to frame literature in our papers. I took a boxing class and loved it. The lab also had a creativity jam and everyone showcased their projects and passions- it was inspiring and surpising.</p>
+
+<p>The GDL validators aren’t straightforward to use (no comments) and are in Java (which I haven’t used before.) Zhen helped me get through some of it.</p>
+		</div>
+
+		<button class = "accordion"> Week 9,  July 22nd - July 28th </button>
+                <div class = "panel">
+		  <p>
+		    Started working on Stanford's GGP-base validation software to test the gdl so far. This was my first time interacting wit Java and Eclipse, so I was very confused at first. I asked for help from 4-5 of the other interns, and my advisor, but I was still struggling to understand how to work on a project in Eclipse (someone finally englightened me.) Once I ran my gdl through the validation software I found out it was riddled with errors. I worked on correcting the logic and learned more about the syntax and several holes in the logic. I also started a file on verbal behaviors, how they are structured, and how they can be used for the agent's behavior.
+		  </p>
+		  <p>
+		    Misc: I got a travel scholarship to visit the University of Michigan for an event about graduate studies. One of the graduate students shared her NSF graduate application with me and it's nuts.
+		  </p>
+		</div>
+
+		<button class = "accordion"> Week 10, July 29th - August 4th </button>
+                <div class = "panel">
+		  <p>
+		    I deconstructed all the functions in the GDL so there is no nested logic for any function. I incrementally validated the GDL by testing each phase of the game. I tracked what code caused what kind of error. I put together API information about the game reasoner to the team would know what information it needed in what form, and what it needs to produce. I made a packet describing a problem that an incoming intern could work on.
+		  </p>
+		  <p>
+		    I attended the summer undergraduate HCII poster session and learned about other research problems in the department. I also had lunch with Justine with the other DREU interns this week.
+		    </p>
+		</div>
+
+		<button class = "accordion"> Week 11,  August 5th - August 11th </button>
+                <div class = "panel">
+		  <p>
+		    I worked on validatiting more of the GDL incrementally. I focused on specific functions that the logic would need to automatically change the state (like know where to move a piece once a die has been rolled.) I sent an email to a researcher who worked on GDL and ECAs, and who was previously a graduate student of Justine's. I found more papers on collaboration to understand the behaviors involved with it.
+		  </p>
+		</div>
+
+		<button class = "accordion"> Week 12, August 12th - August 18th</button>
+                <div class = "panel">
+		  <p>
+		    I completed the player logic for Yuhan to construct with him and Zhen. We decided to focus on the main behaviors that were visible in the previous games that children played. The logic picks an action for each behavior depending on incoming information to the system. We had our weekly testing for the game and realized there were some behaviors that human players expect from the agent (like receiving confirmation, submititng a card, etc.) I worked on my final presentation and presented it on the last day; two other interns also presented their work.
+		  </p>
+		  <p>
+		    I went to Primanti Bros with another intern and then we headed to the Andy Warhol museum. Afterwards, we went to the Milkshake Factory and I got a delicious cookies and cream milkshake. I spent my last night in Pittsburgh pretty well, I think.
+		    </p>
+		</div>
+
+		<script>
+		  var acc = document.getElementsByClassName("accordion");
+		  var i;
+
+		  for (i = 0; i < acc.length; i++) {
+				  acc[i].onclick = function() {
+				  this.classList.toggle("active");
+				  var panel = this.nextElementSibling;
+				  if (panel.style.maxHeight){
+				  panel.style.maxHeight = null;
+				  } else {
+				  panel.style.maxHeight = panel.scrollHeight + "px";
+				  }
+				  }
+				  }
+				  </script>
+		<footer>
+    		  <ul>
+		    <li><a href="mailto:sarahannmathew@gmail.com">
+			<img id = "mail" src = "mail-04.png">
+		    </a></li>
+		  </ul>
+		</footer>
+	</body>
+</html>
