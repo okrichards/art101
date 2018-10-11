@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Olivia Richards</title>
+	  <!-- link to main stylesheet -->
+	  <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman|Inconsolata|Indie+Flower|Mali" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav>
+    		  <ul>
+	            <li><a href="index.html">About Olivia </a></li>
+		    <li><a href="blog.html">Art 101- Blog</a></li>
+		    <li><a href="recipe.html">Assignment: 3</a></li>
+		    <li><a href="4a.html">4.1</a></li>
+		    <li><a href="4b.html">4.2</a></li>
+		    <li><a href="4c.html">4.3</a></li>
+        		<li><a href="essay.html">5</a></li>
+		    <li><a href="essayimages.html">6</a></li>
+		    <li><a href="fontsblog.html">7</a></li>
+    		</ul>
+		</nav>
+    		</ul>
+		</nav>
+		
+		<button class = "accordion">Blog 1</button>
+		<div class = "panel">
+		<p> This summer, I had the unique opportunity to study Dr. Julie Kientz at the University of Washington, in the department of Human Centered Design and Engineering. Dr. Kientz studies Human-Computer Interaction, Ubiquitous Computing, and Health Informatics and is passionate about the intersection of those fields with healthy living and learning. We conducted research on digital user experience to reduce the opportunity gap for low-to-middle income families and took a mixed methods approach. Over my ten week experience that was funded by the Computing Research Association, I helped conduct semi-structured initial and final interviews with 10 families and introduced digital voice assistant technology into their homes. As part of another project, I scraped, filtered, and analyzed relevant product reviews in a content analysis to understand perspectives and share design opportunities for voice assistants to support all families 
+			</p>
+		<p> Thus, as part of my Art 101 blog for this fall 2018 semester, I'd like to discuss a few of my interesting observations that I had this summer, both related and unrelated to my research. The first of which being the culture of recycling in Seattle. 
+			</p>
+		</div>
+
+		<button class = "accordion"> Blog 2</button>
+                <div class = "panel">
+		<p> Summer research at the University of Washington has given me the unique opportunity to spend 10 weeks in the progressive city of Seattle. So many news stories from the summer gave me hope for Mother Earth.
+			</p>
+		<p> On <a href="https://www.cbsnews.com/news/seattle-ban-on-plastic-straws-goes-into-effect-july-1/">July 1</a>- Seattle became the first city to ban single use straws, stirrers and utensils. On <a href="https://www.cnbc.com/2018/07/06/starbucks-to-ditch-single-use-plastic-straws-by-2020.html">July 9</a>- Starbucks will ditch single use plastic straws in all cafes by 2020. And on <a href= "https://www.cnbc.com/2018/07/17/mcdonalds-and-starbucks-team-up-to-develop-a-more-sustainable-cup.html">July 17</a>- Starbucks and Mcdonalds have joined forces to create a compostable cup. 
+			</p>
+		<p>On a hot Saturday afternoon, I sat at a burger joint near the receptacle area. Families stand near the receptacle area with a blank stare. One family was completely confused- I was too close to not provide some help. I explained how to properly dispose of everything from their meal. They thanked me for helping with a smile and sigh of relief. After a bit more research, I realized that even I MESSED UP. The Coca-Cola paper cup, that I thought was lined with plastic, is actually recyclable! See, it happens to the best of us. The confusion was shocking. I then proceeded to watch the process closely as four or five more tables got up to dispose of the scraps from their meal. One man grabbed items from his child and shoved them in the garbage in an “I don’t care”-type of fashion. Others assumed everything was recyclable and tossed everything, including compostable materials, into the large recycling can, an aspirational recycler, tossing it in out of sheer hope. Another family painstakingly stared at each product, each of the three bins and the restaurant's custom signage for each can, which led to success.
+			</p>
+		<p> Next week, I plan to discuss next steps for recycling across America and specifically here in State College. Until then, think about the ways that you recycle?
+		</div>
+
+		<button class = "accordion"> Blog 3</button>
+                <div class = "panel">
+		<p> Last week, I discussed my recycling concerns and hopes and now, I'd like to think about next steps for recycling across America and specifically here in State College. </p>
+		<p> So what's the next step, recycling education? Frequent articles by newspapers? required "look up" tools by town or city? Do you think it should be the responsibility of individual restaurants to create proper signage for customers to follow? Decrease in bin size to avoid an unsorted attitude? I'm not sure. But, what I am sure of is that other states and municipalities need to make this process simpler.
+			</p>
+		<p> I moved into an apartment this year, off-campus. The State College recycling system is unreal. Everything must be separated and the apartment buildings have single cans outside of the buildings. So, you have to have the patience to separate everything or purchase several cans for the inside of your building that you would separate later on. This was absolutely insane. They have 3 cans for different colored glass! This process truly discourages students from recycling and encourages them to throw everything in the trash. Considering the immense college student population in State College, something needs to be done to replicate the Penn State recycling process here and make things more stream-lined. 
+			</p>
+		</div>
+
+
+		<button class = "accordion"> Blog 4</button>
+                <div class = "panel">
+		<p> In talking about my summer experience, I'd also love to share my thoughts on one of the events that made me more confident that I could be selected to participate in the Computing Research Association's DREU program to enable me to work at the University of Washington. Last semester, I frequently got stir fry from the Mongolian Grill at Redifer Dining. I also frequently took a fortune cookie with my meal. One day, I got one that told me something that linked to this experience. 
+			</p>
+		<p> According to NPR on July 25, 2013, a Massachusetts man ate Chinese food and his fortune cookie message predicted he would win a lot of gold, he decided that the next day would be the best time to a lottery ticket and he won the million-dollar prize. While there are many stories like this, is it right to believe in something so fake? Also, I  read a list of crowdsourced rules of the cookie and I apparently can't tell you my fortune.
+			</p>
+		<p> On that day, I received a fortune that relates to my summer research hopes. I hung it on my cork board of photos from college (for good luck, I thought). I read this message after developing plans to do research at the University of Washington during summer 2018. But, like many college students, I couldn't go anywhere without funding. I applied Early Decision on December 20th for an REU grant/program from a prestigious computing organization and didn't hear back until March.  In the mean time, my nervousness and lack of belief in 'the cookie' has sent me to apply to a few other REU programs for the summer, with some in the westwardly direction. 
+			</p>
+		<p> I nervously checked my email every 10 minutes, and I continued to think to myself, should I believe in this cookie? Because I wanted to! But, I also believe that everything happens for a reason. I felt that this opportunity to work with a renowned professor at the #1 university in the country for my research area would change the game with my graduate school applications. If I'm meant to go, I'm meant to go.  
+			</p>
+		<p> At the end of the day, we must also be incredibly thankful for the opportunities that we have been presented with. So, do you believe?
+Believing in fortune cookies worked for me and I was selected and had a fantastic experience.
+			</p>
+		</div>
+
+		<button class = "accordion">Blog 5</button>
+                <div class = "panel">
+	<p> So much happened this week that I'm going to take the time to reflect! This past week, I attended the Grace Hopper Celebration of Women in Computing in Houston, Texas. The Computing Research Association supported my research this past summer, which I presented at the conference.  Everything feels important to share...but "most" importantly, on Thursday, I presented my poster and received a lot of great feedback. Researchers from IBM, Google and MorganStanley stopped by to talk, in addition to random students and faculty. They talked to me about voice assistants because they are all considered experts in voice, in their teams at work. It was amazing that they took the time to hear my presentation. I also presented to people from Washington University in Saint Louis. Those professors asked tough questions and it was great practice. The mentoring sessions that were built into this huge conferences made it feel like I wasn't running around with 22,000 other people. I asked questions regarding the process of crafting your personal statements and academic mentors provided great advice. I attended a session led by Apple engineers who discussed how to land an industry job after getting your Ph. D. They shared that in the process of applying for jobs- the most important skill is the ability to craft one cohesive story that is MY story. Graduate research will enable me to gain so many skills and become an expert. By sharing what I will have had to do to succeed in a graduate program, I can connect the practices to whatever role I want. I will have answered vague questions and communicated the research. They advised us to own our research decisions and projects. I just need to make sure that the company values my research that I look to work for in the future.
+			</p>
+	<p> Additionally, I had the unique opportunity, on FRIDAY MORNING, to hear from Anita Hill. YES YOU READ IT RIGHT. ANITA HILL SPOKE to a very small subset of the 22,000 attendees. It was incredibly timely considering the Kavanaugh hearings and Dr. Ford's testimony. She told us that unfortunately a decision will be made. We can't control that. We will probably be disappointed. We have a decision about what we will do...today, tomorrow and future. She shared how there is elevated public support and understanding as compared to 1991. She empowered the audience to "find the spaces where people value your voice. Don't limit yourself do the places where they say your voice doesn't matter."
+			</p>
+	<p> Also, after getting full-time offers at the conference's career expo, I realized how passionate I truly am about asking my own research questions. So, this experience affirmed my goals to get a Ph.D.
+			</p>		
+		</div>
+		<button class = "accordion">Blog 6</button>
+                <div class = "panel">
+	<p> The past few weeks haven't been easy for women. On Friday, I flew to Seattle and after a day of traveling, I saw endless TV's and headlines and even got to live stream C-SPAN from my phone. It is incredibly sad and concerning that even after several allegations, it is as if Senators didn't even hear her testimony. The sheer number of allegations that they FBI didn't even care to hear is equally as concerning. 
+			</p>
+	<p> In contrast, in my seminar with the Presidential Leadership Academy last week, we heard from Amy Greenberg who discussed the women of Lincoln's time period and over the 20th century. What stuck out to me most was how much I didn't know about the women of this time period. What strikes me most is how much isn't written in history. Children simply don't learn about the experiences of the first few dozen first ladies. Although I knew that women were basically owned by their husbands, I didn't know that women of Lincoln's time were basically forced to 'become' their husband if they pass away. 	
+			</p>
+	<p> Amy Greenberg wrote several books about men of American history. It respect her so much for pushing until she found a potential publisher who would publish a book on women instead of men, like the rest of history. This talk opened my eyes to the struggles for women yesterday and there are clear parallels to the problems of today. I look forward to the day when women don't have to fight for their rights. Until then, we will persist.
+			</p>
+		</div>
+
+		<button class = "accordion">Blog 7</button>
+                <div class = "panel">
+	
+		</div>
+		
+		<button class = "accordion">Blog 8</button>
+                <div class = "panel">
+	
+		</div>
+		
+		<button class = "accordion">Blog 9</button>
+                <div class = "panel">
+	
+		</div>		
+		
+		<button class = "accordion">Blog 10</button>
+                <div class = "panel">
+	
+		</div>		
+		
+		<button class = "accordion">Blog 11</button>
+                <div class = "panel">
+	
+		</div>
+		
+		<button class = "accordion">Blog 12</button>
+                <div class = "panel">
+	
+		</div>
+		
+    
+		<script>
+		  var acc = document.getElementsByClassName("accordion");
+		  var i;
+
+		  for (i = 0; i < acc.length; i++) {
+				  acc[i].onclick = function() {
+				  this.classList.toggle("active");
+				  var panel = this.nextElementSibling;
+				  if (panel.style.maxHeight){
+				  panel.style.maxHeight = null;
+				  } else {
+				  panel.style.maxHeight = panel.scrollHeight + "px";
+				  }
+				  }
+				  }
+				  </script>
+		<footer>
+    		  <ul>
+		    <li><a href="mailto:orichards87@gmail.com">
+			<img id = "mail" src = "mail-04.png">
+		    </a></li>
+		  </ul>
+		</footer>
+	</body>
+</html>
